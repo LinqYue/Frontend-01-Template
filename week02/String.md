@@ -1,3 +1,10 @@
+String
+    SourceCharacter but not one of \ or LineTerminator
+    <LS>
+    <PS>
+    \ EscapeSequence
+    LineContinuation
+
 LineTerminator 行终止符
 U+000A LINE FEED (LF) <LF>
 U+000D CARRIAGE RETURN (CR) <CR>
@@ -26,9 +33,3 @@ LineContinuation 行连接字符
     <CR>
     <CR> <LF>
 
-String
-    SourceCharacter but not one of \ or LineTerminator
-    <LS>
-    <PS>
-    \ EscapeSequence
-    LineContinuation
