@@ -52,8 +52,8 @@ function convertNumberToString(str, base = 10) {
             fraction += codePoint - x;
             i++;
         }
-        number = integer + (fraction/Math.pow(base, fractionPart)).toFixed(fractionPart);
-        return integer + (fraction/Math.pow(base, fractionPart))
+        number = (integer * Math.pow(base, fractionPart)  + fraction) / Math.pow(base, fractionPart);
+        return number;
     } else {
         return NaN;
     }
