@@ -137,11 +137,7 @@ Array Object
     [[DefineOwnProperty]]
     数组对象，独有特殊属性length。每个Array对象都有一个不可配置的length属性，length属性表示Array的元素个数，会随元素个数的变化而变化，其最大值是2³²-1。
 
-String Object
-    string的length是不可写不可配的。
-
 Arguments Object
-
     [[callee]] 视为函数参数对对象，伪数组caller
 
 Object
@@ -157,6 +153,7 @@ Object
     [[Delete]] delete 操作符
     [[OwnPropertyKeys]] Object.keys() Object.entries() Object.values()
     [[Call]] 能够调用call
+
 Module Namespece
     [[Module]] 视为一个引入的模块
     [[Exports]] 视为一个导出的模块
