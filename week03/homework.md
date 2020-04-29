@@ -53,7 +53,7 @@ function convertNumberToString(str, base = 10) {
             i++;
         }
         number = integer + (fraction/Math.pow(base, fractionPart)).toFixed(fractionPart);
-        return integer + (fraction/Math.pow(base, fractionPart)).toFixed(fractionPart)
+        return integer + (fraction/Math.pow(base, fractionPart))
     } else {
         return NaN;
     }
