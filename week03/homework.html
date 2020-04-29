@@ -43,10 +43,7 @@ function convertNumberToString(str, base = 10) {
             fraction += codePoint - x;
             i++;
         }
-        console.log(integer);
         number = integer + (fraction/Math.pow(base, fractionPart)).toFixed(fractionPart);
-        console.log((fraction/Math.pow(base, fractionPart)).toFixed(fractionPart));
-        console.log(number);
         return integer + (fraction/Math.pow(base, fractionPart)).toFixed(fractionPart)
     } else {
         return NaN;
